@@ -569,25 +569,15 @@ When we run the script- The parallel threads of test suite gets executed and the
 - [Safari 11.1, High Sierra](https://automate.browserstack.com/builds/8433e92f2a85704f6a181368c478e810d674d8aa/sessions/c6bbb90bfe699ea9d4041062b7c5da566cb81143?auth_token=717c87c1b25d8de2409e02c48d767c66a2ceefa3e33588552f5086f40f521e0f)
 
 
-
+This output is for one of the device test- 
 
 ```bash
-node index.js
-Navigated to El Pais homepage.
-======================================
+ node index.js
 Navigated to El Pais homepage.
 ======================================
 Cookies accepted.
 ======================================
-No cookies popup found or already accepted.
-======================================
 Found Opinion section link: https://elpais.com/opinion/
-======================================
-Navigated to El Pais homepage.
-======================================
-Found Opinion section link: https://elpais.com/opinion/
-======================================
-Navigated to the Opinion section.
 ======================================
 Navigated to the Opinion section.
 ======================================
@@ -595,12 +585,8 @@ Located the main section with class 'z z-hi'.
 ======================================
 Found 14 articles.
 ======================================
-Cookies accepted.
-======================================
 Title 1: Europa, ante una economía global de todos contra todos
 --------------------------------------
-Found Opinion section link: https://elpais.com/opinion/
-======================================
 API Response: [ 'Europe, before a global economy against all' ]
 Translated Title 1: Europe, before a global economy against all
 --------------------------------------
@@ -633,326 +619,18 @@ Translated Title 4: The time of distrust
 --------------------------------------
 Content: La razón ha sido reemplazada por la emoción como herramienta para juzgar lo que pasa; la sensación de no saber qué es la realidad común lleva una década ocurriendo, pero comenzó antes
 ======================================
-Navigated to El Pais homepage.
-======================================
-Located the main section with class 'z z-hi'.
-======================================
-Found 14 articles.
+Image 4 saved to F:\All Repositories\To_Run_Selenium_Test_on_BrowserStack\opinion_image_4.jpg
 ======================================
 Title 5: Puigdemont, el emérito y Mazón
 --------------------------------------
-Image 4 saved to F:\All Repositories\To_Run_Selenium_Test_on_BrowserStack\opinion_image_4.jpg
-======================================
-Title 1: Europa, ante una economía global de todos contra todos
---------------------------------------
-API Response: [ 'Europe, before a global economy against all' ]
-Translated Title 1: Europe, before a global economy against all
---------------------------------------
-Cookies accepted.
-======================================
-Content: La llegada de Trump va a acentuar un nacionalismo económico sin complejos que obliga a la UE a unirse y salir de su parálisis
-======================================
-No image found for Article 1
-======================================
 API Response: [ 'Puigdemont, the emeritus and mazón' ]
 Translated Title 5: Puigdemont, the emeritus and mazón
 --------------------------------------
-Found Opinion section link: https://elpais.com/opinion/
-======================================
-Title 2: La crisis del FC Barcelona exige respuestas
---------------------------------------
 Content not found for Article 5
-======================================
-Navigated to El Pais homepage.
 ======================================
 No image found for Article 5
 ======================================
 No words are repeated more than twice.
-Test executed successfully!
-======================================
-API Response: [ "FC Barcelona's crisis demands answers" ]
-Translated Title 2: FC Barcelona's crisis demands answers
---------------------------------------
-Navigated to the Opinion section.
-======================================
-Located the main section with class 'z z-hi'.
-======================================
-Found 14 articles.
-======================================
-Content: El fiasco en torno a Olmo es consecuencia de una gestión descuidada de las finanzas que compromete el prestigio del club y sus resultados
-======================================
-Title 1: Europa, ante una economía global de todos contra todos
---------------------------------------
-No image found for Article 2
-======================================
-API Response: [ 'Europe, before a global economy against all' ]
-Translated Title 1: Europe, before a global economy against all
---------------------------------------
-Title 3: El miedo y los límites
---------------------------------------
-Content: La llegada de Trump va a acentuar un nacionalismo económico sin complejos que obliga a la UE a unirse y salir de su parálisis
-======================================
-API Response: [ 'Fear and limits' ]
-Translated Title 3: Fear and limits
---------------------------------------
-No image found for Article 1
-======================================
-Title 2: La crisis del FC Barcelona exige respuestas
---------------------------------------
-Content: La respuesta progresista a la nostalgia ultraderechista debe, sin arrogancia ni desdén, restituir la confianza en la democracia y recordar que es cosa de todos
-======================================
-No image found for Article 3
-======================================
-API Response: [ "FC Barcelona's crisis demands answers" ]
-Translated Title 2: FC Barcelona's crisis demands answers
---------------------------------------
-Title 4: El tiempo de la desconfianza
---------------------------------------
-Content: El fiasco en torno a Olmo es consecuencia de una gestión descuidada de las finanzas que compromete el prestigio del club y sus resultados
-======================================
-No image found for Article 2
-======================================
-API Response: [ 'The time of distrust' ]
-Translated Title 4: The time of distrust
---------------------------------------
-Title 3: El miedo y los límites
---------------------------------------
-Content: La razón ha sido reemplazada por la emoción como herramienta para juzgar lo que pasa; la sensación de no saber qué es la realidad común lleva una década ocurriendo, pero comenzó antes
-======================================
-API Response: [ 'Fear and limits' ]
-Translated Title 3: Fear and limits
---------------------------------------
-Content: La respuesta progresista a la nostalgia ultraderechista debe, sin arrogancia ni desdén, restituir la confianza en la democracia y recordar que es cosa de todos
-======================================
-No image found for Article 3
-======================================
-Image 4 saved to F:\All Repositories\To_Run_Selenium_Test_on_BrowserStack\opinion_image_4.jpg
-======================================
-Title 5: Puigdemont, el emérito y Mazón
---------------------------------------
-Title 4: El tiempo de la desconfianza
---------------------------------------
-API Response: [ 'Puigdemont, the emeritus and mazón' ]
-Translated Title 5: Puigdemont, the emeritus and mazón
---------------------------------------
-Content not found for Article 5
-======================================
-API Response: [ 'The time of distrust' ]
-Translated Title 4: The time of distrust
---------------------------------------
-No image found for Article 5
-======================================
-europe,: 3
-before: 3
-a: 3
-global: 3
-economy: 3
-against: 3
-all: 3
-fc: 3
-barcelona's: 3
-crisis: 3
-demands: 3
-answers: 3
-fear: 3
-and: 5
-limits: 3
-the: 5
-time: 3
-of: 3
-distrust: 3
-Test executed successfully!
-======================================
-Content: La razón ha sido reemplazada por la emoción como herramienta para juzgar lo que pasa; la sensación de no saber qué es la realidad común lleva una década ocurriendo, pero comenzó antes
-======================================
-Image 4 saved to F:\All Repositories\To_Run_Selenium_Test_on_BrowserStack\opinion_image_4.jpg
-======================================
-Title 5: Puigdemont, el emérito y Mazón
---------------------------------------
-API Response: [ 'Puigdemont, the emeritus and mazón' ]
-Translated Title 5: Puigdemont, the emeritus and mazón
---------------------------------------
-Content not found for Article 5
-======================================
-No image found for Article 5
-======================================
-europe,: 3
-before: 3
-a: 3
-global: 3
-economy: 3
-against: 3
-all: 3
-fc: 3
-barcelona's: 3
-crisis: 3
-demands: 3
-answers: 3
-fear: 3
-and: 6
-limits: 3
-the: 6
-time: 3
-of: 3
-distrust: 3
-puigdemont,: 3
-emeritus: 3
-mazón: 3
-Test executed successfully!
-======================================
-Navigated to the Opinion section.
-======================================
-Located the main section with class 'z z-hi'.
-======================================
-Found 14 articles.
-======================================
-No cookies popup found or already accepted.
-======================================
-Title 1: Europa, ante una economía global de todos contra todos
---------------------------------------
-API Response: [ 'Europe, before a global economy against all' ]
-Translated Title 1: Europe, before a global economy against all
---------------------------------------
-Found Opinion section link: https://elpais.com/opinion/
-======================================
-Content: La llegada de Trump va a acentuar un nacionalismo económico sin complejos que obliga a la UE a unirse y salir de su parálisis
-======================================
-No image found for Article 1
-======================================
-Title 2: La crisis del FC Barcelona exige respuestas
---------------------------------------
-API Response: [ "FC Barcelona's crisis demands answers" ]
-Translated Title 2: FC Barcelona's crisis demands answers
---------------------------------------
-Navigated to the Opinion section.
-======================================
-Located the main section with class 'z z-hi'.
-======================================
-Content: El fiasco en torno a Olmo es consecuencia de una gestión descuidada de las finanzas que compromete el prestigio del club y sus resultados
-======================================
-Found 14 articles.
-======================================
-No image found for Article 2
-======================================
-Title 1: Europa, ante una economía global de todos contra todos
---------------------------------------
-Title 3: El miedo y los límites
---------------------------------------
-API Response: [ 'Europe, before a global economy against all' ]
-Translated Title 1: Europe, before a global economy against all
---------------------------------------
-API Response: [ 'Fear and limits' ]
-Translated Title 3: Fear and limits
---------------------------------------
-Content: La llegada de Trump va a acentuar un nacionalismo económico sin complejos que obliga a la UE a unirse y salir de su parálisis
-======================================
-Content: La respuesta progresista a la nostalgia ultraderechista debe, sin arrogancia ni desdén, restituir la confianza en la democracia y recordar que es cosa de todos
-======================================
-No image found for Article 1
-======================================
-No image found for Article 3
-======================================
-Title 2: La crisis del FC Barcelona exige respuestas
---------------------------------------
-Title 4: El tiempo de la desconfianza
---------------------------------------
-API Response: [ "FC Barcelona's crisis demands answers" ]
-Translated Title 2: FC Barcelona's crisis demands answers
---------------------------------------
-API Response: [ 'The time of distrust' ]
-Translated Title 4: The time of distrust
---------------------------------------
-Content: El fiasco en torno a Olmo es consecuencia de una gestión descuidada de las finanzas que compromete el prestigio del club y sus resultados
-======================================
-No image found for Article 2
-======================================
-Content: La razón ha sido reemplazada por la emoción como herramienta para juzgar lo que pasa; la sensación de no saber qué es la realidad común lleva una década ocurriendo, pero comenzó antes
-======================================
-Title 3: 
---------------------------------------
-API Response: [ '' ]
-Translated Title 3:
---------------------------------------
-Image 4 saved to F:\All Repositories\To_Run_Selenium_Test_on_BrowserStack\opinion_image_4.jpg
-======================================
-Content: 
-======================================
-Title 5: Puigdemont, el emérito y Mazón
---------------------------------------
-No image found for Article 3
-======================================
-API Response: [ 'Puigdemont, the emeritus and mazón' ]
-Translated Title 5: Puigdemont, the emeritus and mazón
---------------------------------------
-Content not found for Article 5
-======================================
-Title 4: 
---------------------------------------
-No image found for Article 5
-======================================
-europe,: 5
-before: 5
-a: 5
-global: 5
-economy: 5
-against: 5
-all: 5
-fc: 5
-barcelona's: 5
-crisis: 5
-demands: 5
-answers: 5
-fear: 4
-and: 8
-limits: 4
-the: 8
-time: 4
-of: 4
-distrust: 4
-puigdemont,: 4
-emeritus: 4
-mazón: 4
-Test executed successfully!
-======================================
-API Response: [ '' ]
-Translated Title 4:
---------------------------------------
-Content: 
-======================================
-Image 4 saved to F:\All Repositories\To_Run_Selenium_Test_on_BrowserStack\opinion_image_4.jpg
-======================================
-Title 5: 
---------------------------------------
-API Response: [ '' ]
-Translated Title 5:
---------------------------------------
-Content not found for Article 5
-======================================
-No image found for Article 5
-======================================
-europe,: 5
-before: 5
-a: 5
-global: 5
-economy: 5
-against: 5
-all: 5
-fc: 5
-barcelona's: 5
-crisis: 5
-demands: 5
-answers: 5
-fear: 4
-and: 8
-limits: 4
-the: 8
-time: 4
-of: 4
-distrust: 4
-puigdemont,: 4
-emeritus: 4
-mazón: 4
-: 3
 Test executed successfully!
 ======================================
 All tests executed successfully!
